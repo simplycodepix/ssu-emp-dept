@@ -3,8 +3,7 @@ import qs from 'querystring';
 import { EMP, DEPT } from '../store/types';
 
 const localApiURL = `http://localhost:8048/api`;
-// const apiURL = `http://imdb.god-development.com/api`;
-const apiURL = localApiURL;
+const apiURL = `http://empdept.god-development.com/api`;
 
 // GET
 export const getEmpData = async ({ limit, offset }) => {
